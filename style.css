@@ -1,0 +1,105 @@
+body {
+ background-color: #f1f1f1;
+ color: #c4c4c4;
+ font-size: 16px;
+ font-family: Arial, sans-serif;  
+}
+* {
+   box-sizing: border-box;
+}
+.wrapper {
+   width: 80%;
+   margin: 5% auto;
+}
+header {
+   width: 100%;
+   height: 30%;
+   
+}
+ul {
+   list-style: none;
+}
+section {
+   width: 100%;
+   padding-top: 20px;
+   
+}
+h2 {
+   text-transform: uppercase;
+   font-size: 18px;
+   
+}
+input {
+   width: 90%;
+   font-size: 85px;
+   border: none;
+   outline: none; 
+   color: #ec5a62;
+   font-weight: bold;
+   background-color: inherit;
+   position: relative;
+   
+}
+input::placeholder {
+   color: #c4c4c4
+}
+form {
+   position: relative;
+}
+button {
+   position: absolute;
+   background: url(img/magnifier.svg) no-repeat;
+   width: 80px;
+   height: 80px;
+   border: none;
+   outline: none;
+   cursor: pointer;
+}
+ul, li {
+   display: inline-block;
+}
+ul {
+   width: 100%;
+   padding: 0;
+   margin: 0;
+}
+li {
+   width: 90%;
+   margin: 3px;
+   background: #ebebec;
+}
+.people, .popular, .recent {
+   display: inline-block;
+   width: 33%;
+}
+a {
+   text-decoration: none;
+   color: #acacac;
+   width: 100%;
+   height: 100%;
+   display: block;
+   padding: 10px;
+   
+}
+img {
+   width: 50px;
+   height: 50px;
+   vertical-align: middle;
+   display: inline-block;
+}
+h3 {
+   font-size: 14px;
+   display: inline-block;
+   padding-left: 11px;
+   color: #acacac;
+}
+.people ul img {
+   border-radius: 50%;
+}
+a:hover {
+   background-color: #e4e4e5;
+
+}
+a:hover h3 {
+   color: #ec5a62;;
+}
